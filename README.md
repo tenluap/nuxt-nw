@@ -1,7 +1,3 @@
-<p align="center">
-    <img width="128" src="https://raw.githubusercontent.com/nuxt-community/electron-template/master/template/static/icon.png">
-</p>
-
 # NUXT + NW-template
 
 A starter project template for use with [vue-cli](https://github.com/vuejs/vue-cli) that combines [Nuxt.js](https://github.com/nuxt/nuxt.js) with [Nw.js](https://nwjs.io/).
