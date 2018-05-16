@@ -13,7 +13,7 @@ The following software must be installed:
 ## Installation
 
 ```bash
-$ vue init ehigiepaul/nuxt-nw-template my-project  
+$ vue init ehigiepaul/nuxt-nw my-project  
 $ cd my-project
 # install dependencies
 $ npm install # Or yarn
