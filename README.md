@@ -2,8 +2,6 @@
 
 A starter project template for use with [vue-cli](https://github.com/vuejs/vue-cli) that combines [Nuxt.js](https://github.com/nuxt/nuxt.js) with [Nw.js](https://nwjs.io/).
 
-> For the original clonable (not vue-cli) version use the [git-clone branch](https://github.com/nuxt-community/electron-template/tree/git-clone).
-
 ## Prerequisites
 
 The following software must be installed:
@@ -33,6 +31,6 @@ $ npm run dev
 ### Production
 
 ```bash
-# build for production using electron-builder
+# build for production using nw-builder
 $ npm run build
 ```
