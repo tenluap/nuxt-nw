@@ -8,13 +8,13 @@
   "scripts": {
     "dev": "NODE_ENV=dev nw .",
     "build": "nuxt build",
-    "pack": "nuxt build; nwbuild -v 0.30.0 -o ./release -p osx64 -f",
-    "start": "npm run build; nw .",
+    "pack": "nuxt build; nwbuild -v 0.30.0 -o ./release -p osx64,win64 -f",
+    "start": "npm run build; NODE_ENV=prod nw .",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
-  "manifestUrl": "http://127.0.0.1:8080/package.json",
+  "manifestUrl": "http://path-to/package.json",
   "dependencies": {
     "axios": "^0.18.0",
     "nuxt": "^1.0.0",
