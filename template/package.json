@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "NODE_ENV=dev nw .",
     "build": "nuxt build",
-    "pack": "nuxt build; nwbuild -v 0.30.0 -o ./release -p osx64,win64 -f",
+    "pack": "nuxt build; nwbuild -v 0.30.0 -o ./release -p osx64,win64 -f .",
     "start": "npm run build; NODE_ENV=prod nw .",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
