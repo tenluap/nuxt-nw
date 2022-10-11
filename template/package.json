@@ -36,7 +36,7 @@
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
     "fork-ts-checker-webpack-plugin": "^0.4.1",
-    "nw-builder": "^3.5.1",
+    "nw-builder": "^3.8.6",
     "thread-loader": "^1.1.5",
     "ts-loader": "^4.3.0",
     "tslint": "^5.10.0",
