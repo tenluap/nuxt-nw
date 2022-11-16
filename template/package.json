@@ -17,7 +17,7 @@
   "manifestUrl": "http://path-to/package.json",
   "dependencies": {
     "axios": "^0.18.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.15.8",
     "nw": "latest",
     "nuxt-sass-resources-loader": "^2.0.0",
     "nuxt-ts-module": "^1.0.3",
